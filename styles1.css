@@ -1,0 +1,59 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #5a8cb8, #838386);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color:#306da5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #555;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#lap-times {
+    list-style: none;
+    padding: 0;
+}
+
+#lap-times li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
